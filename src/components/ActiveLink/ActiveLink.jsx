@@ -7,7 +7,7 @@ const ActiveLink = ({ to, children }) => {
             to={to}
             className={({ isActive }) =>
                 isActive
-                    ? "underline underline-offset-4 text-purple-600"
+                    ? "underline underline-offset-4 text-[#800080]"
                     : ""
             }
         >
