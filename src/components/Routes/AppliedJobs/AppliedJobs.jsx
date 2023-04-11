@@ -3,6 +3,7 @@ import { getShoppingCart } from '../../../utilities/fakedb';
 import DropDown from '../../DropDown/DropDown';
 import { useLoaderData } from 'react-router-dom';
 import AppliedJob from '../../AppliedJob/AppliedJob';
+import NavBanner from '../../NavBanner/NavBanner';
 
 const AppliedJobs = () => {
     const jobs = useLoaderData();
@@ -38,27 +39,31 @@ const AppliedJobs = () => {
     };
 
     return (
-        <section className='px-1 md:px-5 lg:px-40'>
-            <h2 className='text-[#1A1919] text-2xl font-bold text-center my-2 lg:my-5 underline underline-offset-8'>Applied Jobs</h2>
+        <>
+            <NavBanner />
 
-            <div className='flex justify-end'>
-                <DropDown
-                    pickRemoteJob={pickRemoteJob}
-                    pickOnsiteJob={pickOnsiteJob}
-                />
-            </div>
+            <h2 className='text-[#1A1919] text-2xl font-bold text-center my-9 -mt-2 pb-12 relative z-20'>Applied Jobs</h2>
 
-            <div className='flex flex-col gap-1 md:gap-5 my-28'>
-                {
-                    appliedJobs.map(appliedJob =>
-                        <AppliedJob
-                            key={appliedJob.id}
-                            appliedJob={appliedJob}
-                        />
-                    )
-                }
-            </div>
-        </section>
+            <section className='px-1 md:px-5 lg:px-40'>
+                <div className='flex justify-end'>
+                    <DropDown
+                        pickRemoteJob={pickRemoteJob}
+                        pickOnsiteJob={pickOnsiteJob}
+                    />
+                </div>
+
+                <div className='flex flex-col gap-1 md:gap-5 my-28'>
+                    {
+                        appliedJobs.map(appliedJob =>
+                            <AppliedJob
+                                key={appliedJob.id}
+                                appliedJob={appliedJob}
+                            />
+                        )
+                    }
+                </div>
+            </section>
+        </>
     );
 };
 
