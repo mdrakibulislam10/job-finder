@@ -1,6 +1,7 @@
 import './App.css'
 import { Outlet } from 'react-router-dom'
 import Footer from './components/Footer/Footer'
+import { Toaster } from 'react-hot-toast';
 
 function App() {
 
@@ -8,8 +9,10 @@ function App() {
     <>
       <Outlet />
       <Footer />
+
+      <Toaster />
     </>
   )
 }
 
-export default App
+export default App;

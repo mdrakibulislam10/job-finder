@@ -1,13 +1,20 @@
 import React from 'react';
 import { CalendarDaysIcon, CurrencyDollarIcon, EnvelopeIcon, MapPinIcon, PhoneIcon } from '@heroicons/react/24/solid'
-import { addToDb } from '../../utilities/fakedb';
+import { addToDb, getAppliedJobs } from '../../utilities/fakedb';
+import { toast } from 'react-hot-toast';
 
 const JobDetail = ({ job }) => {
     // console.log(job);
     const { id, jobDescription, jobResponsibility, educationalRequirements, experiences, salary, location, jobTitle, contactInformation } = job;
 
     const addDetailsToDb = id => {
-        addToDb(id);
+        const storedJobs = getAppliedJobs();
+        if (id in storedJobs) {
+            toast("You can't apply same job again!!!");
+        }
+        else {
+            addToDb(id);
+        }
     };
 
     return (
