@@ -10,7 +10,7 @@ const Header = () => {
                 <ActiveLink to={"/"}>Home</ActiveLink>
                 <ActiveLink to={"/statistics"}>Statistics</ActiveLink>
                 <ActiveLink to={"/applied/jobs"}>Applied Jobs</ActiveLink>
-                <ActiveLink to={"/blog"}>Blog</ActiveLink>
+                <ActiveLink to={"/blogs"}>Blog</ActiveLink>
             </nav>
 
             <button>Start Applying</button>

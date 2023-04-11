@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "companyLogo": "https://images.unsplash.com/photo-1572059002053-8cc5ad2f4a38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "jobTitle": "Software Engineer",
+        "companyName": "Google",
+        "remoteOrOnsite": "Remote",
+        "location": "New York, NY",
+        "fulltimeOrParttime": "Part time",
+        "salary": "$100,000 - $120,000",
+        "jobDescription": "We are seeking a software engineer to join our team!",
+        "jobResponsibility": "Develop and maintain software applications",
+        "educationalRequirements": "Bachelor's degree in computer science or equivalent experience",
+        "experiences": "3+ years of experience in software development",
+        "contactInformation": {
+            "phone": "555-555-5555",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 2,
+        "companyLogo": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "jobTitle": "Data Analyst",
+        "companyName": "Netflix",
+        "remoteOrOnsite": "Onsite",
+        "location": "San Francisco, CA",
+        "fulltimeOrParttime": "Full time",
+        "salary": "$120,000 - $140,000",
+        "jobDescription": "We are seeking a data analyst to join our team!",
+        "jobResponsibility": "Analyze and interpret data, create reports and visualizations",
+        "educationalRequirements": "Bachelor's degree in statistics, mathematics or related field",
+        "experiences": "2+ years of experience in data analysis",
+        "contactInformation": {
+            "phone": "555-555-5555",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 3,
+        "companyLogo": "https://images.unsplash.com/photo-1612810806695-30f7a8258391?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
+        "jobTitle": "Product Manager",
+        "companyName": "Tesla",
+        "remoteOrOnsite": "Remote",
+        "location": "Chicago, IL",
+        "fulltimeOrParttime": "Full time",
+        "salary": "$80,000 - $100,000",
+        "jobDescription": "We are seeking a product manager to lead our product team!",
+        "jobResponsibility": "Define and prioritize product roadmap, gather customer feedback",
+        "educationalRequirements": "Bachelor's degree in business, marketing or related field",
+        "experiences": "5+ years of experience in product management",
+        "contactInformation": {
+            "phone": "555-555-5555",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 4,
+        "companyLogo": "https://images.unsplash.com/photo-1611262588024-d12430b98920?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "jobTitle": "Web Developer",
+        "companyName": "Instagram",
+        "remoteOrOnsite": "Remote",
+        "location": "Los Angeles, CA",
+        "fulltimeOrParttime": "Part time",
+        "salary": "$90,000 - $110,000",
+        "jobDescription": "We are seeking a web dev to join our team!",
+        "jobResponsibility": "Develop and execute software and analyze results and optimize performance",
+        "educationalRequirements": "Bachelor's degree in CSE.",
+        "experiences": "1+ years of experience in web development",
+        "contactInformation": {
+            "phone": "999-555-5555",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 5,
+        "companyLogo": "https://images.unsplash.com/photo-1611605698335-8b1569810432?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "jobTitle": "Software Engineer",
+        "companyName": "Twitter",
+        "remoteOrOnsite": "Onsite",
+        "location": "Dhaka, Bangladesh",
+        "fulltimeOrParttime": "Part time",
+        "salary": "$90,000 - $110,000",
+        "jobDescription": "We are seeking a marketing manager to join our team!",
+        "jobResponsibility": "Develop and execute marketing campaigns, analyze results and optimize performance",
+        "educationalRequirements": "Bachelor's degree in marketing, communications or related field",
+        "experiences": "3+ years of experience in marketing management",
+        "contactInformation": {
+            "phone": "555-555-5555",
+            "email": "jobs@example.com"
+        }
+    },
+    {
+        "id": 6,
+        "companyLogo": "https://images.unsplash.com/photo-1611944212129-29977ae1398c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "jobTitle": "Branch Manager",
+        "companyName": "Linkedin",
+        "remoteOrOnsite": "Onsite",
+        "location": "Los Angeles, CA",
+        "fulltimeOrParttime": "Full time",
+        "salary": "$90,000 - $110,000",
+        "jobDescription": "We are seeking a marketing manager to join our team! apply now.",
+        "jobResponsibility": "Develop and execute marketing campaigns.",
+        "educationalRequirements": "Bachelor's degree in marketing, communications.",
+        "experiences": "2+ years of experience in marketing management",
+        "contactInformation": {
+            "phone": "555-555-5555",
+            "email": "jobs@example.com"
+        }
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "categoryImg": "https://img.freepik.com/free-vector/financial-accounting-female-accountant-cartoon-character-making-financial-report-summary-analysis-reporting-financial-statement-income-balance_335657-2380.jpg?w=740&t=st=1681170738~exp=1681171338~hmac=a97abe63169c2fd27fcd35194d01d2ea88f51775e6935f669496cc873305caf4",
+        "categoryName": "Account & Finance",
+        "categoryJob": "300 Jobs Available"
+    },
+    {
+        "id": "2",
+        "categoryImg": "https://img.freepik.com/premium-vector/light-bulb-icon_23-2147506146.jpg?1&w=740",
+        "categoryName": "Creative Design",
+        "categoryJob": "100+ Jobs Available"
+    },
+    {
+        "id": "3",
+        "categoryImg": "https://img.freepik.com/free-vector/social-tree-concept-illustration_114360-4898.jpg?w=740&t=st=1681170857~exp=1681171457~hmac=0705bcefe0b52c882a1c08ce5fae203f47e7b395b2a2495e2d60c80b654dcac9",
+        "categoryName": "Marketing & Sales",
+        "categoryJob": "150 Jobs Available"
+    },
+    {
+        "id": "4",
+        "categoryImg": "https://img.freepik.com/free-vector/flat-engineering-construction-illustrated_23-2148892788.jpg?w=996&t=st=1681171005~exp=1681171605~hmac=1efabb237006f8ea43fb05b408ba041d25d5b3350a24f59537740bc5cb1524a3",
+        "categoryName": "Engineering Job",
+        "categoryJob": "224 Jobs Available"
+    }
+]
