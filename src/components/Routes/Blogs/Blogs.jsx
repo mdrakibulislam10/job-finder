@@ -28,8 +28,8 @@ const Blogs = () => {
             </article>
             <article className='my-6'>
                 <h2 className='text-xl font-bold text-pink-500'>1. What is useMemo?</h2>
-                <p><b>#useMemo():</b>
-
+                <p><b>#useMemo(): </b>
+                    useMemo() is a React Hook and function. useMemo hook is used for calculations. useMemo take two parameters. The 1st param is a function and the 2nd param is dependency. The function is only called when the dependencies change. If the dependencies do not change between renders, useMemo() returns the previously cached result.
                 </p>
             </article>
         </section>
