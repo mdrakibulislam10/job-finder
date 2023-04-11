@@ -23,8 +23,7 @@ const Blogs = () => {
             <article className=''>
                 <h2 className='text-xl font-bold text-pink-500'>3. What is useRef?</h2>
                 <p><b>#useRef(): </b>
-                  
-
+                    useRef() is a React Hook and also a function. useRef give a value that's not needed for rendering. Any JS code can be given as initial value. useRef hook returns an object. The returns objects inside a single property.
                 </p>
             </article>
             <article className='my-6'>
