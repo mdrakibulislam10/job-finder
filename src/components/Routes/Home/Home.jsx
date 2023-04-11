@@ -18,7 +18,7 @@ const Home = () => {
             <Banner />
             <JobCategory />
 
-            <div className='px-1 md:px-5 lg:px-40 mt-24'>
+            <div className='px-1 md:px-5 lg:px-40 my-24'>
                 <h2 className='text-center text-4xl font-bold'>Featured Jobs</h2>
                 <p className='text-center text-[#535252] my-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
 
