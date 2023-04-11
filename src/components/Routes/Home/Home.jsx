@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Banner from '../../Banner/Banner';
 import JobCategory from '../../JobCategory/JobCategory';
 import { useLoaderData } from 'react-router-dom';
@@ -7,7 +7,12 @@ import Job from '../../Job/Job';
 const Home = () => {
     const featuredJobs = useLoaderData();
 
-    const [jobs, setJobs] = useState(featuredJobs.slice(0, 4))
+    const limitedData = featuredJobs.slice(0, 4);
+
+    const [jobs, setJobs] = useState([]);
+    useEffect(() => {
+        setJobs(limitedData);
+    }, []);
 
     const seeMoreHandler = () => {
         setJobs(featuredJobs);

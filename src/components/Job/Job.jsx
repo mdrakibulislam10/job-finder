@@ -3,7 +3,7 @@ import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid'
 
 
 const Job = ({ job }) => {
-    console.log(job);
+    // console.log(job);
     const { id, companyLogo, jobTitle, companyName, remoteOrOnsite, fulltimeOrParttime, location, salary } = job;
 
     return (
