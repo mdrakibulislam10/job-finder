@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "assignmentNumber": "A1",
+        "assignmentName": "HTML5",
+        "marks": "60"
+    },
+    {
+        "id": "2",
+        "assignmentNumber": "A2",
+        "assignmentName": "CSS3",
+        "marks": "60"
+    },
+    {
+        "id": "3",
+        "assignmentNumber": "A3",
+        "assignmentName": "CSS Frameworks",
+        "marks": "60"
+    },
+    {
+        "id": "4",
+        "assignmentNumber": "A4",
+        "assignmentName": "Basic JavaScript",
+        "marks": "60"
+    },
+    {
+        "id": "5",
+        "assignmentNumber": "A5",
+        "assignmentName": "JS DOM",
+        "marks": "60"
+    },
+    {
+        "id": "6",
+        "assignmentNumber": "A6",
+        "assignmentName": "API And Data Load",
+        "marks": "60"
+    },
+    {
+        "id": "7",
+        "assignmentNumber": "A7",
+        "assignmentName": "Debugging",
+        "marks": "60"
+    }
+]
