@@ -21,9 +21,9 @@ const JobDetails = () => {
 
     return (
         <div className='relative'>
-            <h2 className='text-[#1A1919] text-2xl font-bold text-center my-5 underline underline-offset-4'>Job Details</h2>
+            <h2 className='text-[#1A1919] text-2xl font-bold text-center my-2 lg:my-5 underline underline-offset-4'>Job Details</h2>
 
-            <div>
+            <div className='px-1 md:px-5 lg:px-40 my-6 lg:my-20'>
                 <JobDetail
                     job={job}
                 />

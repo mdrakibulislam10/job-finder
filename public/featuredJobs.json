@@ -14,7 +14,7 @@
         "experiences": "3+ years of experience in software development",
         "contactInformation": {
             "phone": "555-555-5555",
-            "email": "jobs@example.com"
+            "email": "jobs@e.g.com"
         }
     },
     {
@@ -32,7 +32,7 @@
         "experiences": "2+ years of experience in data analysis",
         "contactInformation": {
             "phone": "555-555-5555",
-            "email": "jobs@example.com"
+            "email": "jobs@e.g.com"
         }
     },
     {
@@ -50,7 +50,7 @@
         "experiences": "5+ years of experience in product management",
         "contactInformation": {
             "phone": "555-555-5555",
-            "email": "jobs@example.com"
+            "email": "jobs@e.g.com"
         }
     },
     {
@@ -68,7 +68,7 @@
         "experiences": "1+ years of experience in web development",
         "contactInformation": {
             "phone": "999-555-5555",
-            "email": "jobs@example.com"
+            "email": "jobs@e.g.com"
         }
     },
     {
@@ -86,7 +86,7 @@
         "experiences": "3+ years of experience in marketing management",
         "contactInformation": {
             "phone": "555-555-5555",
-            "email": "jobs@example.com"
+            "email": "jobs@e.g.com"
         }
     },
     {
@@ -104,7 +104,7 @@
         "experiences": "2+ years of experience in marketing management",
         "contactInformation": {
             "phone": "555-555-5555",
-            "email": "jobs@example.com"
+            "email": "jobs@e.g.com"
         }
     }
 ]
