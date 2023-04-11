@@ -16,13 +16,14 @@ const Blogs = () => {
             </article>
             <article className='my-6'>
                 <h2 className='text-xl font-bold text-pink-500'>2. What is a custom hook?</h2>
-                <p><b>#Custom hook:</b>
-
+                <p><b>#Custom hook: </b>
+                    A custom hook is a JavaScript function whose name starts with "use" and can call another hook. If any component code needs to be re-used another component, then, the code can be received with a custom hook.
                 </p>
             </article>
             <article className=''>
                 <h2 className='text-xl font-bold text-pink-500'>3. What is useRef?</h2>
-                <p><b>#useRef():</b>
+                <p><b>#useRef(): </b>
+                  
 
                 </p>
             </article>
