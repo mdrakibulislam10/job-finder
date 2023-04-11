@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getShoppingCart } from '../../../utilities/fakedb';
+import { getAppliedJobs } from '../../../utilities/fakedb';
 import DropDown from '../../DropDown/DropDown';
 import { useLoaderData } from 'react-router-dom';
 import AppliedJob from '../../AppliedJob/AppliedJob';
@@ -13,7 +13,7 @@ const AppliedJobs = () => {
     const [appliedJobs2, setAppliedJob2] = useState([]);
 
     useEffect(() => {
-        const storedJobs = getShoppingCart();
+        const storedJobs = getAppliedJobs();
         // console.log(storedJobs);
         const newJob = [];
         for (const id in storedJobs) {
