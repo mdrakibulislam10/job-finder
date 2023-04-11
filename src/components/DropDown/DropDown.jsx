@@ -1,10 +1,9 @@
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/solid';
 import React, { useState } from 'react';
 
-const DropDown = () => {
+const DropDown = ({ pickRemoteJob, pickOnsiteJob }) => {
 
     const [isOpen, setIsOpen] = useState(false);
-    // const toggleDropdown= ()=
 
     return (
         <div>
@@ -24,10 +23,14 @@ const DropDown = () => {
                 {
                     isOpen &&
                     <div className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
-                        <div className="py-1" role="none">
+                        <div className="py-1 font-semibold cursor-pointer" role="none">
+                            <span onClick={pickRemoteJob}
+                                className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-0">Show Remote Job</span>
 
-                            <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-0">Account settings</a>
-                            <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-1">Support</a>
+                            <hr className='border-t-4' />
+
+                            <span onClick={pickOnsiteJob}
+                                className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-1">Show Onsite Job</span>
                         </div>
                     </div>
                 }
