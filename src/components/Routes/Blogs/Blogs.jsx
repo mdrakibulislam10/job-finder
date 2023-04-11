@@ -2,9 +2,37 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div>
-            hi
-        </div>
+        <section className='px-1 md:px-5 lg:px-40'>
+            <h2 className='text-3xl font-bold text-blue-600 text-center my-9'>Welcome to my blog page!!!</h2>
+            <article className=''>
+                <h2 className='text-xl font-bold text-pink-500'>1. When should you use context API?</h2>
+                <p><b>#Context API: </b>
+                    If same data needs to be loaded in multiple components, instead of loading the data repeatedly, the data can be shared through the context provider by loading the data once in the main(root) component. UseContext() hook is used to get that data from the child component.
+                    <br />
+                    #Avoid prop drilling: To send any data to a child component, the parent component sends the child component then its child component as follows. Sending data like this is called prop drilling. To avoid prop drilling, the context can be used.
+                    <br />
+                    We can pass any valid JS code like array, object, string, number, etc as value. And we can put any data in the state and send that state to child component.
+                </p>
+            </article>
+            <article className='my-6'>
+                <h2 className='text-xl font-bold text-pink-500'>2. What is a custom hook?</h2>
+                <p><b>#Custom hook:</b>
+
+                </p>
+            </article>
+            <article className=''>
+                <h2 className='text-xl font-bold text-pink-500'>3. What is useRef?</h2>
+                <p><b>#useRef():</b>
+
+                </p>
+            </article>
+            <article className='my-6'>
+                <h2 className='text-xl font-bold text-pink-500'>1. What is useMemo?</h2>
+                <p><b>#useMemo():</b>
+
+                </p>
+            </article>
+        </section>
     );
 };
 
