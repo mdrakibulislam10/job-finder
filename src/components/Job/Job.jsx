@@ -12,7 +12,7 @@ const Job = ({ job }) => {
         <div className='border border-gray-300 rounded-lg p-6'>
             <img className='w-44 h-24 rounded' src={companyLogo} alt="" />
             <h3 className='my-3 font-bold text-xl'>{jobTitle}</h3>
-            <p className='text-[#5a5a5a]'>{companyName}</p>
+            <p className='text-[#5a5a5a] text-lg'>{companyName}</p>
             <div className='my-3 flex gap-3 flex-wrap'>
                 <button className='text-purple-700' style={{ background: "transparent", border: "2px solid purple" }}>{remoteOrOnsite}</button>
                 <button className='text-purple-700' style={{ background: "transparent", border: "2px solid purple" }}>{fulltimeOrParttime}</button>

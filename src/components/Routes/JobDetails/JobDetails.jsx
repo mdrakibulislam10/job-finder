@@ -24,7 +24,7 @@ const JobDetails = () => {
         <>
             <NavBanner />
 
-            <h2 className='text-[#1A1919] text-2xl font-bold text-center my-9 -mt-2 pb-12 relative z-20'>Job Details</h2>
+            <h2 className='text-gray-600 text-2xl font-bold text-center my-9 -mt-2 pb-12 relative z-20'>Job Details</h2>
 
             <div>
                 <div className='px-1 md:px-5 lg:px-40 my-6 lg:my-20'>

@@ -6,19 +6,15 @@ import { StarIcon } from '@heroicons/react/24/solid';
 
 const Statistics = () => {
     const marks = useLoaderData();
-    // console.log(marks);
 
-    let total = 0;
-    for (const mark of marks) {
-        total = total + parseInt(mark.mark)
-    };
+    const total = marks.reduce((previous, current) => previous + parseInt(current.mark), 0);
     const avg = total / marks.length;
 
     return (
         <>
             <NavBanner />
 
-            <h2 className='text-[#1A1919] text-2xl font-bold text-center my-9 -mt-2 pb-12 relative z-20'>Student Analytics</h2>
+            <h2 className='text-gray-600 text-2xl font-bold text-center my-9 -mt-2 pb-12 relative z-20'>Student Analytics</h2>
 
             <section className='px-1 md:px-5 lg:px-40 my-8'>
                 <h2 className='text-2xl font-semibold'>Assignment Analytics</h2>

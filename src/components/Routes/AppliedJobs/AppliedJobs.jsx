@@ -42,7 +42,7 @@ const AppliedJobs = () => {
         <>
             <NavBanner />
 
-            <h2 className='text-[#1A1919] text-2xl font-bold text-center my-9 -mt-2 pb-12 relative z-20'>Applied Jobs</h2>
+            <h2 className='text-gray-600 text-2xl font-bold text-center my-9 -mt-2 pb-12 relative z-20'>Applied Jobs</h2>
 
             <section className='px-1 md:px-5 lg:px-40'>
                 <div className='flex justify-end'>

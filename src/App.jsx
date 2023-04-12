@@ -12,7 +12,7 @@ function App() {
 
       {
         navigation.state === "loading"
-          ? <span className='absolute top-32 md:top-40 text-lg left-1 md:left-2/4 -ms-12'>Loading...</span>
+          ? <span className='absolute top-32 md:top-40 -mt-2 text-lg left-2/4 -ms-12'>Loading...</span>
           : ""
       }
 
