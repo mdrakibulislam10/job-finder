@@ -1,7 +1,7 @@
 import './App.css'
 import { Outlet, useNavigation } from 'react-router-dom'
 import Footer from './components/Footer/Footer'
-import { Toaster, toast } from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
 
